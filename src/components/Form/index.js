@@ -69,7 +69,7 @@ const Form = () => {
     <div>
       <div className={classes.container_centered}>
         {" "}
-        <h1>Solicitud de Permiso, SoftonITG.</h1>
+        <h1>Solicitud de Permiso</h1>
       </div>
 
       <div className={classes.container_centered}>
@@ -110,7 +110,7 @@ const Form = () => {
       </div>
       <div className={classes.container_centered}>
         <Button variant="contained" color="primary">
-          Primary
+          Enviar solicitud
         </Button>
       </div>
     </div>
