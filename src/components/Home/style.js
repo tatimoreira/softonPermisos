@@ -5,11 +5,15 @@ export const useStyles = makeStyles({
         display: 'flex',
         flexWrap: 'wrap',
       },
+      container:{
+        padding: '20px',
+      },
       formControl: {
-        margin: theme.spacing.unit,
         minWidth: 120,
       },
-      selectEmpty: {
-        marginTop: theme.spacing.unit * 2,
+      container_centered: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
       },
 });
