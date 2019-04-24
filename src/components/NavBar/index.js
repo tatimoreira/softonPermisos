@@ -5,11 +5,11 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import CardHeader from '@material-ui/core/CardHeader';
-import Avatar from '@material-ui/core/Avatar';
+import CardHeader from "@material-ui/core/CardHeader";
+import Avatar from "@material-ui/core/Avatar";
+import { Link } from "react-router-dom";
 
 import { useStyles } from "./styles";
-
 
 const NavBar = () => {
   const classes = useStyles();
@@ -25,7 +25,9 @@ const NavBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" className={classes.grow}>
-            SoftonITG
+            <Link to="/" className="btn btn-link">
+              SoftonITG
+            </Link>
           </Typography>
           <Button color="inherit">
             <CardHeader
