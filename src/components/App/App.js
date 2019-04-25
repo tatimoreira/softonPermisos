@@ -6,6 +6,7 @@ import { history } from '../../_helpers';
 import { alertActions } from '../../_actions';
 import  Login  from '../Login';
 import  Register  from '../Register';
+import  EmployeeList  from '../EmployeeList';
 import { PrivateRoute } from '../PrivateRoute';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
         <PrivateRoute exact path="/" component={Home} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/employeeList" component={EmployeeList} />
       </Router>
     );
   }
